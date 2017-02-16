@@ -12,6 +12,7 @@
 		89B88E551D33495F00EA1578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E531D33495F00EA1578 /* Main.storyboard */; };
 		89B88E571D33495F00EA1578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E561D33495F00EA1578 /* Assets.xcassets */; };
 		89B88E5A1D33495F00EA1578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E581D33495F00EA1578 /* LaunchScreen.storyboard */; };
+		FAD88FBF1E5536FD003FFFCF /* seconview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD88FBE1E5536FD003FFFCF /* seconview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89B88E561D33495F00EA1578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B88E591D33495F00EA1578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B88E5B1D33495F00EA1578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD88FBE1E5536FD003FFFCF /* seconview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seconview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				89B88E561D33495F00EA1578 /* Assets.xcassets */,
 				89B88E581D33495F00EA1578 /* LaunchScreen.storyboard */,
 				89B88E5B1D33495F00EA1578 /* Info.plist */,
+				FAD88FBE1E5536FD003FFFCF /* seconview.swift */,
 			);
 			path = MiraclePill;
 			sourceTree = "<group>";
@@ -91,12 +94,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Devslopes;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					89B88E4B1D33495F00EA1578 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NUW936ZHH8;
+						DevelopmentTeam = RG984Y4MMV;
 						DevelopmentTeamName = "Devslopes, LLC";
 						ProvisioningStyle = Automatic;
 					};
@@ -140,6 +143,7 @@
 			files = (
 				89B88E521D33495F00EA1578 /* ViewController.swift in Sources */,
 				89B88E501D33495F00EA1578 /* AppDelegate.swift in Sources */,
+				FAD88FBF1E5536FD003FFFCF /* seconview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +184,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -203,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,8 +234,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -245,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -258,9 +266,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG984Y4MMV;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.MiraclePill;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahorrolibre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,9 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG984Y4MMV;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.MiraclePill;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahorrolibre;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +307,7 @@
 				89B88E601D33495F00EA1578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
