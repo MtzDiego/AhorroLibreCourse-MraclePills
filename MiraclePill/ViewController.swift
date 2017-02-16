@@ -13,8 +13,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var textaddress: UITextField!
     @IBOutlet weak var textcity: UITextField!
     @IBOutlet weak var view2: UIView!
-    
-    
+    //cean
     let states = ["Alaska","Arkansas", "Alabama","California","Maine","New York"]
     
     override func viewDidLoad() {
